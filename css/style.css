@@ -136,3 +136,13 @@ button:hover{
     height: 40px;
     width: 150px;
 }
+
+/* Username displaying */
+h3{
+    color: black;
+}
+#username{
+    color: green;
+    font-size: larger;
+    
+}
