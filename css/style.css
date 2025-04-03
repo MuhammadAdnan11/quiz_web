@@ -13,8 +13,8 @@
     background-color: #cbfbfb;
 }
 #quiz{
-    width: 500px;
-    height: 400px;
+    width: 800px;
+    height: 410px;
     background-color: white;
     /*display: block;
     *//*justify-content: center;
@@ -80,4 +80,59 @@ input[type="radio"]{
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
+}
+
+button{
+ margin-top: 10px;
+ padding: 10px 10px 10px;
+ height: 35px;
+ width: 85px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 16px;
+ background-color: #12dbcd;
+ color: white;
+ font-weight: 600;
+ border: none;
+ border-radius: 15px;
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ -ms-border-radius: 15px;
+ -o-border-radius: 15px;
+ box-shadow:2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+button:hover{
+    background-color: #08baaf;
+}
+
+
+.result{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height:410px;
+    background-color: #cbfbfb;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px ;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.reload-button{
+    height: 40px;
+    width: 150px;
 }
